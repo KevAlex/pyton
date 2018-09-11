@@ -1,17 +1,3 @@
-# class Animal:
-#      def __init__(self, name, age):
-#          self.name = name
-#          self.age = age
-#          print name,age
-#      def getName(self):
-#          return self.name
-#      def getAge(self):
-#          return self.age
-#
-#
-# pollo = Animal("Kevin",55)
-#
-
 # def Fac(n):
 #     a = 1
 #     for i in range(0,n):
@@ -41,7 +27,41 @@ strin = ["kev","jua","n"]
 # c= [el+02 for el in vec]
 # print c
 
-c =[1+x for x in range (12)]
+#c =[1+x for x in range (12)]
 
-print c
+#print c
+
+#def SumLista(vec):
+    #suma =0
+    #for i in vec:
+      #  suma= suma+i
+
+    #return suma
+   
+    
+#print SumLista(vec)
+
+def rever(vector):
+    c = len(vector)
+    c = c-1
+    vecD =[]
+    for i in range (0,len(vector)):
+        a = vector[c]
+        vecD.append(a)
+        c=c-1
+    print vecD
+    
+    
+    #return vector[c]
+#print rever(vec)
+
+def buscar(n,vector):
+    for i in range (0,len(vector)):
+        if (n== vector[i]):
+            c = i
+    return c
+
+print buscar(6,vec)
+        
+           
 
