@@ -64,4 +64,33 @@ def buscar(n,vector):
 print buscar(6,vec)
         
            
+           
+           def cuadrado (vector):
+    vect=[]
+    for i in range (0,len(vector)):
+        vect.append(vector[i]*vector[i])
+
+    return vect
+
+
+
+#vector =[5,6,7,8]
+
+#print (cuadrado(vector))
+
+
+
+def primo ():
+    primos =[2,3,5]
+    for i in range (1,101):
+        if ( (i%2)==0 or (i%3)==0 or (i%5)==0 ):
+            print ""
+        else:
+            primos.append(i)
+    return primos        
+        
+print primo()
+
+
+
 
