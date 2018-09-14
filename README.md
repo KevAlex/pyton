@@ -24,27 +24,4 @@ o = [x+x | x <-[1..12]]
 m = [x*x|x<-[1..10]]
 
 
-public static void main(String[] args) {
-        // TODO code application logic here
 
-        String a = "he1la";
-        char cadena[] = new char[a.length()];
-        cadena = a.toCharArray();
-        String tex = "hrueba de texto ";
-        char texto[] = new char[tex.length()];
-        texto = tex.toCharArray();
-        // bad match table
-        int correr [] = new int [a.length()];
-        
-        
-        for (int i = 0; i < tex.length(); i++) {
-//            System.out.print(texto[i]);
-            for (int j = 0; j < a.length(); j++) {
-                if (texto[i] == cadena[j]) {
-                    System.out.println(" Correcdt " + cadena[j]);                // coincidencias de letras
-                }
-            }
-
-        }
-        
-    }
