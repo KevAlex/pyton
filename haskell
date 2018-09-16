@@ -1,4 +1,4 @@
-# def Fac(n):
+# def Fac(n):               //factorial
 #     a = 1
 #     for i in range(0,n):
 #         print(a, n)
@@ -6,6 +6,7 @@
 #         n=n-1
 #
 # # print(Fac(6))
+
 # def Cua(n):
 #     print n*n
 # print Cua(8)
@@ -41,7 +42,7 @@ strin = ["kev","jua","n"]
     
 #print SumLista(vec)
 
-def rever(vector):
+def rever(vector):                  //revierte el vector
     c = len(vector)
     c = c-1
     vecD =[]
@@ -56,7 +57,7 @@ def rever(vector):
 #print rever(vec)
 
 def buscar(n,vector):
-    for i in range (0,len(vector)):
+    for i in range (0,len(vector)):             // busca el numero y devuelve la posicion
         if (n== vector[i]):
             c = i
     return c
@@ -67,7 +68,7 @@ print buscar(6,vec)
            
            def cuadrado (vector):
     vect=[]
-    for i in range (0,len(vector)):
+    for i in range (0,len(vector)):                 // creo que eleva al cuadrado el vector
         vect.append(vector[i]*vector[i])
 
     return vect
