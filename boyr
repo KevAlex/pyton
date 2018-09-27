@@ -48,3 +48,5 @@ public static void main(String[] args) { // TODO code application logic here
         }
     }
 }
+mayor:: Int->Int ->Bool
+mayor x y = if x>y then True else False 
