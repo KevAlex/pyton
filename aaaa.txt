@@ -1,55 +1,8 @@
 
-    [max(x) for x in lista]
+    class Nario():
+    def __init__(self,valor,nodos=[]):
+        self.valor = valor
+        self.nodos = nodos
 
-	[list(str)
+an = Nario (2,[ Nario(4,[Nario(12), Nario(24), Nario(40)]), Nario(8,[Nario(16), Nario(32)]), Nario(5,[Nario(25), Nario(50)]) ] )
 
-
-
-
-def promedio(lista):
-    a=0
-    b=0
-    for i in range (0, len(lista)):
-        if(lista[i]%5==0):
-            a =1
-
-    if(a==1):
-        for d in (0, len(lista)):
-            b = b + lista[d]
-        b = b/len(lista)
-        return b  
-    else:
-        return b 
-          
-        
-
-vec = [1,2,3,6]
-v2 = [5,9]
-
-lis= vec+v2
-
-
-
-print promedio([[5,4,2],[2,3,6]]) 
-
-
-
-def conver (nu):
-
-    
-    cad = str(nu)
-    char= []
-    for n in cad:
-        n = int(n)
-        char.append(n)
-
-    return char
-
-print (conver(532))
-
-
-
-        
-    
-
-            
