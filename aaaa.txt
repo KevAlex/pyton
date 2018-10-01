@@ -6,3 +6,13 @@
 
 an = Nario (2,[ Nario(4,[Nario(12), Nario(24), Nario(40)]), Nario(8,[Nario(16), Nario(32)]), Nario(5,[Nario(25), Nario(50)]) ] )
 
+# problema es como entrar al otro nivel de la lista 
+def buscarD(num,arbolN):
+    if arbolN == None:
+        return False
+    else:
+        buscarN(num,arbolN)
+        arbolN.nodos.pop(0)
+        or
+        buscarD(num,arbolN)
+
